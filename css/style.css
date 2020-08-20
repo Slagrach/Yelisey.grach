@@ -328,11 +328,11 @@ h3:before {
     position: absolute;
     left: 10%;
     top: 35%;
+    z-index: 1;
 }
 
 .creeper {
     width: 200px;
-    z-index: 10;
 }
 
 .outfit {
