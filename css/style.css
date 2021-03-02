@@ -351,11 +351,34 @@ h3:before {
     .menu__list {
         font-size: 20px;
     }
+
+    .menu__items {
+        margin: 0 5px;
+    }
+
+    .spider img {
+        width: 120px;
+    }
+
+    .spider {
+        bottom: 34%;
+    }
+
+    .content__title h3 {
+        font-size: 22px;
+    }
+
+    .content__title h3:after,
+    h3:before {
+        content: none;
+    }
 }
 
 @supports (-webkit-appearance:none) {
     .header {
-        background-image: url("../img/logo.webp")
+        background-image: url("../img/logo.webp");
+        background-size: contain;
+        background-position: top;
     }
 
     .fullscreen-bg {
