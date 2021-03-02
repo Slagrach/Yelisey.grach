@@ -349,8 +349,15 @@ h3:before {
         height: 30vh;
     }
 
+    .header {
+        background-size: contain;
+        background-position: top;
+    }
+
     .menu__list {
         font-size: 20px;
+        outline: none;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .menu__items {
@@ -399,9 +406,7 @@ h3:before {
 
 @supports (-webkit-appearance:none) {
     .header {
-        background-image: url("../img/logo.webp");
-        background-size: contain;
-        background-position: top;
+        background-image: url("../img/logo.webp")
     }
 
     .fullscreen-bg {
