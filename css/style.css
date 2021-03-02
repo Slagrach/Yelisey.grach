@@ -376,6 +376,10 @@ h3:before {
         bottom: 34%;
     }
 
+    .content__title {
+        padding: 15px 0 0 0;
+    }
+
     .content__title h3 {
         font-size: 22px;
     }
