@@ -80,6 +80,7 @@ body {
     position: sticky;
     top: 0;
     background-color: #333333;
+    z-index: 5;
 }
 
 .menu__body ul {
@@ -356,6 +357,10 @@ h3:before {
         margin: 0 5px;
     }
 
+    .menu__items:hover {
+        transform: none;
+    }
+
     .spider img {
         width: 120px;
     }
@@ -371,6 +376,24 @@ h3:before {
     .content__title h3:after,
     h3:before {
         content: none;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    .footer__img {
+        left: 0%;
+        top: 35%;
+    }
+
+    .creeper {
+        width: 100px;
+    }
+
+    .footer__body {
+        padding: 30px 0 20px 88px;
+        font-size: 26px;
     }
 }
 
